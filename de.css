@@ -9,7 +9,11 @@
   --danger-color: #982929; /* danger accent color (hex, rgb or hsl) [default: #982929] */
   --url-color: var(--main-color); /* url links accent color (hex, rgb or hsl) [default: var(--main-color)] */
   --focus-color: var(--main-color); /* focus accent color (hex, rgb or hsl) [default: var(--focus-primary)] */
-
+ --background-secondary-alt: var(--primary-660) 100%, var(--theme-base-color, #000) var(--theme-base-color-amount, 0%;
+--primary-660: none;	
+--theme-base-color : none;
+  --theme-base-color-amount:none;
+ display:none;
   /* STATUS COLORS */
   --online-color: #43b581; /* online status color (hex, rgb or hsl) [default: #43b581] */
   --idle-color: #faa61a; /* idle status color (hex, rgb or hsl) [default: #faa61a] */
